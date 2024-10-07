@@ -13,15 +13,7 @@ Driver drowsiness detection systems help prevent accidents by alerting the drive
 If the yawn counter crosses the threshold value, then an alert message will be displayed upon the screen.  
 • Also, apart from the message upon the screen, we will be sending a message on the phone of the emergency contact of driver along with the location of the driver.  
 
-### Requirements  
-To run the detection system install anaconda prompt. Navigate to the folder where the repository is saved and execute the following commands on anaconda.  
-  
-conda create --name opencv-env python=3.8  
-activate opencv-env  
-pip install numpy scipy matplotlib scikit-learn jupyter imutils playsound os geocoder twilio  
-pip install opencv-contrib-python  
-conda install -c conda-forge dlib  
-  
+
 Now the file should execute smoothly with the command:  
 python detect_drowsiness.py --webcam 0 --alarm alarm.wav  
 

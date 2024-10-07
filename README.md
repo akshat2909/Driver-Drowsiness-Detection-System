@@ -14,10 +14,4 @@ If the yawn counter crosses the threshold value, then an alert message will be d
 • Also, apart from the message upon the screen, we will be sending a message on the phone of the emergency contact of driver along with the location of the driver.  
 
 
-Now the file should execute smoothly with the command:  
-python detect_drowsiness.py --webcam 0 --alarm alarm.wav  
-
-### Note  
-Create an account on twilio and get account ID and authorized token. Replace them in the python file accordingly.  
-Also replace the from number in lines 133 and 162 with the number provided by twilio.  
-In lines 134 and 163, replace the number with the number of the emergency contact.  
+ 
